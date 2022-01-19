@@ -1,18 +1,17 @@
-import { Form, Button } from 'react-bootstrap'
+import Dictionary from "./Dictionary";
+
 function App() {
   return (
     <div className="App">
-      <h1>Dictionary</h1>
-      <Form>
-        <Form.Group className="mb-3" controlId="formSearchBar">
-          <Form.Label>What word do you want to look up?</Form.Label>
-          <Form.Control type="text" placeholder="Type word here..." />
-        </Form.Group>
-        <Button variant="primary" type="submit">
-          Search
-        </Button>
-      </Form>
-
+      <div className="Container">
+        <header>
+          <h1>Dictionary</h1>
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer>Coded by Aya</footer>
+      </div>
     </div>
   );
 }
