@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import axios from 'axios'
 import { Form, Button } from 'react-bootstrap'
 
 
@@ -6,15 +7,23 @@ const Dictionary = () => {
 
   let [word, setWord] = useState('')
 
+  function handleResponse(response) {
+    console.log(response.data[0])
+  }
+
   function search(e) {
     e.preventDefault()
-    alert(`searching for ${word}`)
+
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`
+    axios.get(apiUrl).then(handleResponse)
   }
 
   function wordChange(e) {
     e.preventDefault()
     setWord(e.target.value)
   }
+
+
   return (
     <div>
       <Form className='search-container' onSubmit={search}>
