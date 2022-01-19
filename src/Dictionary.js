@@ -1,14 +1,17 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import { Form, Button } from 'react-bootstrap'
+import Results from './Results'
 
 
 const Dictionary = () => {
 
   let [word, setWord] = useState('')
+  let [results, setResults] = useState(null)
 
   function handleResponse(response) {
-    console.log(response.data[0])
+    // console.log(response.data[0])
+    setResults(response.data[0])
   }
 
   function search(e) {
@@ -35,6 +38,7 @@ const Dictionary = () => {
           Search
         </Button>
       </Form>
+      <Results results={results} />
     </div>
   )
 }
