@@ -1,4 +1,5 @@
-import Dictionary from "./Dictionary";
+import Dictionary from "./Dictionary"
+import './styles/App.css'
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultWord="sunset" />
         </main>
         <footer>Coded by Aya</footer>
       </div>

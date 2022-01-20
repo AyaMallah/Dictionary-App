@@ -1,0 +1,11 @@
+.App {
+  background-color: #fbe5e5;
+}
+.Container {
+  margin: 0px 100px;
+}
+header,
+footer {
+  text-align: center;
+  padding: 50px 20px;
+}

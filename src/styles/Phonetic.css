@@ -1,0 +1,13 @@
+.Phonetic {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  max-width: 150px;
+}
+a#listen {
+  text-decoration: none;
+  border: 1px solid palevioletred;
+  border-radius: 20px;
+  padding: 10px;
+  color: palevioletred;
+}
