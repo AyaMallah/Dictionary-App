@@ -5,6 +5,7 @@ const Photos = (props) => {
   if (props.photos) {
     return (
       <section className="Photos">
+        <h3>photos</h3>
         <div className="row">
           {props.photos.map(function (photo, index) {
             return (

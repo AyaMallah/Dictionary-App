@@ -7,10 +7,10 @@
 li {
   font-size: 15px;
   padding: 6px;
-  border: 1px solid black;
+  border: 1px solid #ffc900;
   border-radius: 20px;
   margin: 3px;
 }
 li:hover {
-  border: 1px solid pink;
+  border: 1px solid gray;
 }

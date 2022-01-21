@@ -6,8 +6,12 @@
 }
 a#listen {
   text-decoration: none;
-  border: 1px solid palevioletred;
+  border: 1px solid #ffc900;
   border-radius: 20px;
   padding: 10px;
-  color: palevioletred;
+  color: gray;
+}
+a#listen:hover {
+  border: 1px solid gray;
+  color: #ffc900;
 }

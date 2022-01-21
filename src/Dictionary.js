@@ -58,7 +58,7 @@ const Dictionary = (props) => {
         </div>
         <Form className='search-container' onSubmit={handleSubmit}>
           <Form.Group className="mb-2" controlId="formSearchBar">
-            <Form.Control type="text" placeholder="Type word here..." onChange={wordChange} />
+            <Form.Control type="text" placeholder="Type word here..." onChange={wordChange} defaultValue={props.word} />
           </Form.Group>
           <Button variant="secondary" type="submit">
             Search

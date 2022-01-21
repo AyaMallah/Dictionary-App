@@ -6,12 +6,12 @@ function App() {
     <div className="App">
       <div className="Container">
         <header>
-          <h1>Dictionary</h1>
+          <h1 id="header" >Dictionary</h1>
         </header>
         <main>
           <Dictionary defaultWord="sunset" />
         </main>
-        <footer>Coded by Aya</footer>
+        <footer>Coded by <a id="github" href="https://github.com/AyaMallah/Dictionary-App">Aya</a></footer>
       </div>
     </div>
   );
