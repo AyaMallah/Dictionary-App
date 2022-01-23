@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Dictionary-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+React Dictionary is a Front End Development project that explores the use of REST Api's in a dictionary app in which the user looks up a word and the app returns the following information:
+* phonetic - sound
+* word definition (noun, adjective, verb)
+* sentence examples
+* synonyms
+* word-related images
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+<div align="center">
+<img src="https://res.cloudinary.com/dhrxw6zhp/image/upload/v1642935305/Screenshot_2022-01-23_at_10.48.39_ccq8vs.png" width="700px" height="600px"/>
+  
+<img src="https://res.cloudinary.com/dhrxw6zhp/image/upload/v1642935312/Screenshot_2022-01-23_at_10.49.22_zse1w7.png" width="700px" height="600px"/>
+  
+<img src="https://res.cloudinary.com/dhrxw6zhp/image/upload/v1642935318/Screenshot_2022-01-23_at_10.49.36_ksun1v.png" width="700px" height="600px"/>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Brief
+Use an external API to create a React app with multiple components. This app should be created using JavaScript, React and HTML/CSS for styling.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployment 
+<a href="https://dictionary-app-uk.netlify.app/">Dictionary App</a>
 
-### `npm test`
+## Timeframe
+5 days
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies
+* HTML
+* CSS
+* BootStrap
+* JavaScript
+* React
+* Node.js
+* Axios
 
-### `npm run build`
+## Installation
+* Install Node.js. 
+* Create an empty folder.
+* Open empty with VS Code.
+* Open Terminal.
+* Run `yarn install`.
+* Run `npx create-react-app .`.
+* Type `yarn start`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Plan
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div align="center">
+<img src="https://res.cloudinary.com/dhrxw6zhp/image/upload/v1642935298/Screenshot_2022-01-18_at_13.54.52_fvefxp.png" width="700px" height="600px"/>
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Approach
 
-### `npm run eject`
+## Wins 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Challenges
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Bugs
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Improvements
